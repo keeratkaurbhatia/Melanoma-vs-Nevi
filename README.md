@@ -32,14 +32,14 @@ This project aims to develop a deep learning model to differentiate between **me
 - **Macro Avg F1-score:** 0.81
 - **Weighted Avg F1-score:** 0.91
 
-> 📌 While the model performs very well overall, recall for melanoma (0.56) could be improved further, as missing melanoma cases can have severe consequences.
+> 📌 Limitation: While the model performs very well overall, recall for melanoma (0.56) could be improved further, as missing melanoma cases can have severe consequences.
 
 ---
 
 ## 🧠 Techniques Used
 
-- Transfer learning with EfficientNetB0
-- Custom image preprocessing: **CLAHE**, **Gamma Correction**, **Contrast Stretching**
+- Transfer learning with EfficientNetB3
+- Custom image preprocessing: **Gamma Correction** and **Contrast Stretching**
 - Evaluation: ROC Curve, Optimal Thresholding for ROC & F1
 - Loss Function: `binary_crossentropy`
 - Performance metrics: Accuracy, ROC AUC, Classification Report
